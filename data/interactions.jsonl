@@ -1,0 +1,12 @@
+{"interaction_id":"turn_001","seller_text":"I can quickly compare your current plan with ours.","customer_text":"I do not have time right now.","demo_gate_pass":false}
+{"interaction_id":"turn_002","seller_text":"We may be able to lower your monthly bill.","customer_text":"The price is exactly what I am worried about.","demo_gate_pass":true}
+{"interaction_id":"turn_003","seller_text":"Do you know which provider you use today?","customer_text":"I think it is the same one we have always used.","demo_gate_pass":false}
+{"interaction_id":"turn_004","seller_text":"There is no long binding on the new plan.","customer_text":"Wait, is there a contract or binding period?","demo_gate_pass":true}
+{"interaction_id":"turn_005","seller_text":"The switch can be handled for you.","customer_text":"Okay, that sounds fine.","demo_gate_pass":false}
+{"interaction_id":"turn_006","seller_text":"You would keep the same core service.","customer_text":"I tried switching before and it became more expensive later.","demo_gate_pass":true}
+{"interaction_id":"turn_007","seller_text":"Can I ask who you use today?","customer_text":"Yes, sure.","demo_gate_pass":false}
+{"interaction_id":"turn_008","seller_text":"The offer includes support and setup.","customer_text":"I am worried support will be worse than what I have now.","demo_gate_pass":true}
+{"interaction_id":"turn_009","seller_text":"Most customers use less data than they expect.","customer_text":"I probably do not use that much data.","demo_gate_pass":false}
+{"interaction_id":"turn_010","seller_text":"The plan is flexible if your usage changes.","customer_text":"What happens if I need more data next month?","demo_gate_pass":true}
+{"interaction_id":"turn_011","seller_text":"I can send the numbers after the call.","customer_text":"That would be useful.","demo_gate_pass":false}
+{"interaction_id":"turn_012","seller_text":"It should only take a few minutes to check.","customer_text":"I am busy, but if it is actually cheaper I can listen.","demo_gate_pass":true}

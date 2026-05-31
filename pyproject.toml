@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "carbontracker-example-gate"
+version = "0.1.0"
+description = "Callbuddy gated LLM generation demo measured with local carbontracker-tui."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "httpx>=0.27",
+    "huggingface-hub>=0.23",
+    "numpy>=1.24,<2.0",
+    "onnxruntime>=1.19",
+    "pydantic>=2,<3",
+    "torch>=2.2",
+    "transformers>=4.44",
+    "uvicorn[standard]>=0.30",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["server"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

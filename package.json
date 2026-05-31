@@ -1,0 +1,14 @@
+{
+  "name": "carbontracker-example-gate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Callbuddy gated LLM generation demo measured with local carbontracker-tui.",
+  "scripts": {
+    "server:always": "CALLBUDDY_MODE=always uv run uvicorn server.app:app --host 127.0.0.1 --port 8020",
+    "server:gate-fp32": "CALLBUDDY_MODE=gate_fp32 uv run uvicorn server.app:app --host 127.0.0.1 --port 8021",
+    "server:gate-int8": "CALLBUDDY_MODE=gate_int8_static uv run uvicorn server.app:app --host 127.0.0.1 --port 8022",
+    "fetch-models": "uv run python scripts/prefetch_models.py",
+    "demo": "uv run python scripts/run_demo.py",
+    "test": "uv run pytest -q"
+  }
+}
